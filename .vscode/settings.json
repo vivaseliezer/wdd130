@@ -57,5 +57,6 @@
   "chat.disableAIFeatures": true,
   "chat.commandCenter.enabled": false,
   "inlineChat.accessibleDiffView": "off",
-  "terminal.integrated.initialHint": false
+  "terminal.integrated.initialHint": false,
+  "geminicodeassist.outlines.automaticOutlineGeneration": true
 }
