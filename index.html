@@ -2,42 +2,107 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Orlando Vivas | WDD 130</title>
-    <meta name="description"
-      content="Orlando Vivas's home page for WDD 130, featuring background information and course projects.">
-    <meta name="author" content="Orlando Vivas">
-    <link rel="stylesheet" href="styles/styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orlando Vivas | BYU-I WDD 130 Home Portal</title>
+  <meta name="description" content="Orlando Vivas's official BYU-Idaho home portal page for course WDD 130, showcasing background profile and weekly frontend web development projects.">
+  <meta name="author" content="Orlando Vivas">
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="#">Home</a>
-            <a href="wwr/">Rafting Website</a>
-        </nav>
-    </header>
+  <!-- Header & Sticky Navigation -->
+  <header>
+    <div class="header-container">
+      <h1>Orlando Vivas | WDD 130 Portal</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="wwr/about.html">Rafting (About Us)</a>
+      </nav>
+    </div>
+  </header>
 
+  <!-- Main Portal Layout Container -->
+  <div class="container">
+    <!-- Primary Content Area -->
     <main>
-        <h1>Orlando Vivas | WDD 130</h1>
-        <img src="images/profile.jpg" alt="Hello, my name is Orlando Vivas">
-        <p>Hello! My name is Orlando Vivas and I am from Guatemala, but I have been living in the
-            USA since 2007. I am married to my beautiful wife from Ethiopia.</p>
+      <section class="profile-card">
+        <img src="images/profile.jpg" alt="Orlando Vivas Profile Photograph">
+        <div class="profile-desc">
+          <h2>About Orlando Vivas</h2>
+          <p>
+            Hello and welcome! My name is Orlando Vivas. I am originally from beautiful Guatemala, but I have lived in the USA since 2007. I am happily married to my wonderful wife from Ethiopia, and I am currently pursuing my education at BYU-Idaho.
+          </p>
+          <p>
+            This home portal serves as the launchpad for my frontend web development projects, showcase experiments, and course assignments in <strong>WDD 130</strong>.
+          </p>
+        </div>
+      </section>
+
+      <!-- Weekly Activities Catalog Grid -->
+      <section class="activities-section">
+        <h3>Weekly Course Assignments</h3>
+        <div class="activities-grid">
+          <!-- Week 1 Card -->
+          <article class="week-card">
+            <h4>Week 01</h4>
+            <a href="week01/city.html" target="_blank">City Exercise</a>
+            <a href="week01/file-paths.html" target="_blank">File Paths Practice</a>
+            <a href="week01/first-page.html" target="_blank">First Page Setup</a>
+            <a href="week01/images.html" target="_blank">Images Exercise</a>
+          </article>
+
+          <!-- Week 2 Card -->
+          <article class="week-card">
+            <h4>Week 02</h4>
+            <a href="week02/basic-layout.html" target="_blank">Basic Layout</a>
+            <a href="week02/block-vs-inline.html" target="_blank">Block vs Inline</a>
+            <a href="week02/box-model.html" target="_blank">Box Model Demo</a>
+            <a href="week02/temple.html" target="_blank">Temple Page</a>
+          </article>
+
+          <!-- Week 3 Card -->
+          <article class="week-card">
+            <h4>Week 03</h4>
+            <a href="week03/class-and-id.html" target="_blank">Class & ID Selectors</a>
+            <a href="week03/float.html" target="_blank">Float Layouts</a>
+          </article>
+
+          <!-- Week 4 Card -->
+          <article class="week-card">
+            <h4>Week 04</h4>
+            <a href="week04/flexbox-layout.html" target="_blank">Flexbox Layout</a>
+            <a href="week04/flexbox-menu.html" target="_blank">Flexbox Navigation</a>
+            <a href="week04/header-layout.html" target="_blank">Header Blueprint</a>
+            <a href="week04/layout-exercises.html" target="_blank">Layout Exercises</a>
+          </article>
+
+          <!-- Week 5 Card -->
+          <article class="week-card">
+            <h4>Week 05</h4>
+            <a href="week05/table-exercise-solution.html" target="_blank">Table Styling</a>
+          </article>
+        </div>
+      </section>
     </main>
 
+    <!-- Heritage Aside Info Panel -->
     <aside>
-        <h2>Guatemala</h2>
-        <img src="images/guatemala.jpg" alt="Beautiful landscape of Guatemala">
-        <p>Guatemala is a Central American country south of Mexico, home to volcanoes, rainforests
-            and ancient Mayan sites. The capital, Guatemala City, features the stately National
-            Palace of Culture and the National Museum of Archaeology and Ethnology. Antigua, west of
-            the capital, contains preserved Spanish colonial buildings.</p>
+      <h2>Guatemala</h2>
+      <img src="images/guatemala.jpg" alt="Scenic landscape showing Antigua Guatemala and active volcanoes">
+      <p>
+        Guatemala is a central American country located south of Mexico, celebrated for its rugged volcanic skylines, thick tropical rainforests, and centuries-old Mayan civilizations.
+      </p>
+      <p style="margin-top: 1rem;">
+        Its historic capital, Guatemala City, features deep architectural landmarks, while beautiful Antigua displays perfectly preserved Spanish colonial architectures and majestic active mountain views.
+      </p>
     </aside>
+  </div>
 
-    <footer>
-        <p>©2026 Orlando Vivas | Virginia, USA</p>
-    </footer>
+  <!-- Main Footer -->
+  <footer>
+    <p>©2026 Orlando Vivas | BYU-Idaho Course Portal | Virginia, USA</p>
+  </footer>
 </body>
 
 </html>
