@@ -58,5 +58,8 @@
   "chat.commandCenter.enabled": false,
   "inlineChat.accessibleDiffView": "off",
   "terminal.integrated.initialHint": false,
-  "geminicodeassist.outlines.automaticOutlineGeneration": true
+  "geminicodeassist.outlines.automaticOutlineGeneration": true,
+  "cSpell.words": [
+    "socialmedia"
+  ]
 }
